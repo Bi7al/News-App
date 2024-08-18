@@ -36,7 +36,7 @@ body{
 .nav-links{
   display: flex;
   flex-direction: row;
- font-size: 1.25rem;
+  font-size: 1.25rem;
   padding-right: 1.5rem;
   gap: 4rem;
     a{
@@ -70,13 +70,14 @@ font-weight: 600;
   .outlink{
     margin-top: 1rem;
   }
+  .nav{
+    padding: .5rem;
+  }
   .nav-links{
     gap: 0;
     width: 100vw;
     padding: 0;
-    
     margin-top: .5rem;
-    
     justify-content: space-evenly;
   }
 }

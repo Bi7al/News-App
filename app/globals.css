@@ -73,11 +73,16 @@ font-weight: 600;
   .nav{
     padding: .5rem;
   }
+  .nav-header{
+    text-align: center;
+    width: 100vw;
+    font-weight: 650;
+  }
   .nav-links{
     gap: 0;
     width: 100vw;
     padding: 0;
-    margin-top: .5rem;
+    margin-top: 1rem;
     justify-content: space-evenly;
   }
 }

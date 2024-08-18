@@ -9,3 +9,7 @@
     flex-direction: column;
     gap: .5rem;
 }
+.header{
+    margin: 1rem;
+    text-align: center;
+  }

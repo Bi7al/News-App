@@ -2,19 +2,20 @@ import React from 'react'
 import Link from "next/link";
 import "./globals.css";
 
-function SideNav() {
+function Nav() {
   return (
     <>
-      <div className="header">
-        <h2>Daily News</h2>
+      <div className="nav-header">
+        <h1 >Daily News</h1>
       </div>
       <ul className='nav-links'>
-        <Link href={"/Sports"}>Sports</Link>
+
         <Link href={"/Politics"}>Politics</Link>
+        <Link href={"/Sports"}>Sports</Link>
         <Link href={"/Business"}>business</Link>
       </ul>
     </>
   )
 }
 
-export default SideNav
+export default Nav

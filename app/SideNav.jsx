@@ -6,7 +6,7 @@ function SideNav() {
   return (
     <>
       <div className="header">
-        <h1>Daily News</h1>
+        <h2>Daily News</h2>
       </div>
       <ul className='nav-links'>
         <Link href={"/Sports"}>Sports</Link>

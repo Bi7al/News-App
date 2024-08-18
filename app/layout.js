@@ -1,6 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import SideNav from "./SideNav";
+import { Suspense } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,9 +18,11 @@ export default function RootLayout({ children }) {
           <SideNav />
         </div>
         <div className="outlink">
-          {children}
+          <Suspense fallback={"loadings..."}>
+            {children}
+          </Suspense>
         </div>
       </body>
-    </html>
+    </html >
   );
 }

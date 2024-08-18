@@ -40,15 +40,19 @@ body{
   padding-right: 1.5rem;
   gap: 4rem;
     a{
-      text-decoration: none;
+      text-decoration: underline;
       color: white;
       font-weight: 600;
       text-align: end;
-
+      transition: .25s ease-in;
     }
   a:hover{
     text-decoration: underline;
   }
+  
+}
+a:focus{
+ color: rgb(194, 194, 194);
 }
 
 

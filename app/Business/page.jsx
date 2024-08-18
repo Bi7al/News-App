@@ -13,7 +13,7 @@ async function Business() {
             {articles.map((article, index) =>
 
 
-                <div className="container" key={index} >
+                <div className="news-container" key={index} >
                     <h3 className="title" >{article.title}</h3>
                     <hr className='seperatorLine' />
                     <h5>Author: {article.author ? article.author : "Unknown"}</h5>

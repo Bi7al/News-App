@@ -6,16 +6,14 @@
   overflow: auto;
 }
 body{
-  display: flex;
-  flex-direction: column;
-  width: 100vw;
+  box-sizing: border-box;
   color: white;
+  width: 95vw;
   background-color: #ffe5b9;
 }
-
-
 .outlink{
   color: black;
+  box-sizing: border-box;
 }
 
 /* For Nav ------------------------- */
@@ -30,6 +28,7 @@ body{
   align-items: center;
   background-color: #325266;
   position: fixed;
+  flex-wrap: wrap;
 }
 .nav-header{
   text-decoration: underline;
@@ -37,9 +36,9 @@ body{
 .nav-links{
   display: flex;
   flex-direction: row;
+ font-size: 1.25rem;
   padding-right: 1.5rem;
   gap: 4rem;
-  font-size: 1.25rem;
     a{
       text-decoration: none;
       color: white;

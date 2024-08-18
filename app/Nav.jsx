@@ -12,7 +12,7 @@ function Nav() {
 
         <Link href={"/Politics"}>Politics</Link>
         <Link href={"/Sports"}>Sports</Link>
-        <Link href={"/Business"}>business</Link>
+        <Link href={"/Business"}>Business</Link>
       </ul>
     </>
   )

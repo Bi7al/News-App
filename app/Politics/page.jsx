@@ -1,8 +1,9 @@
 import React from 'react';
 import VisitLink from '../VisitLink';
-import "../main.css"
+import "../main.css";
+
 async function Politics() {
-    const response = await fetch('https://newsapi.org/v2/top-headlines?country=us&category=politics&pageSize=9&apiKey=3ec949dead2e452dab5d50fb92e79a54');
+    const response = await fetch('https://newsapi.org/v2/top-headlines?country=us&category=politics&pageSize=9&apiKey=3ec949dead2e452dab5d50fb92e79a54', { cache: 'no-store' });
     const data = await response.json();
     const articles = data.articles;
     return (
@@ -30,4 +31,4 @@ async function Politics() {
     )
 }
 
-export default Politics
+export default Politics;
